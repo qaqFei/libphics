@@ -15,7 +15,7 @@ void process(
     short PCM_DRAG[],   ulong PCM_DRAG_LEN,
     char  chart_data[], ulong note_num,
     short output[],     ulong output_len,
-    ulong channels,    ulong frame_rate
+    ulong channels,     ulong frame_rate
 );
 ```
 
