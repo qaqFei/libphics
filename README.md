@@ -108,8 +108,6 @@ args = (
 st = time.perf_counter()
 process(*args)
 et = time.perf_counter()
-
-benchmark_data.append(len(notes) / (et - st))
     
 print("time:", et - st)
 print(len(notes) / (et - st), "notes per second")
